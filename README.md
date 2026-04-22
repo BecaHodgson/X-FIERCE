@@ -2,7 +2,7 @@
 (Descripción 1-2 líneas)
 
 ## Tabla de Contenido
--[¿Quiénes Somos?] (#¿quiénes_somos)
+-[¿Quiénes Somos?](#¿quiénes_somos)
 -[Movilidad y Diseño Mecánico](#movilidad_y_diseño_mecánico)
 -[Arquitectura de Potencia y Sensores](#arquitectura_de_potencia_y_sensores)
 -[Arquitectura de Software y Estrategia de Obstáculos](#arquitectura_de_software_y_estrategia_de_obstáculos)
