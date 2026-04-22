@@ -7,7 +7,7 @@
 -[Arquitectura de Potencia y Sensores](#arquitectura de potencia y sensores)
 -[Arquitectura de Software y Estrategia de Obstáculos](#arquitectura de software y estrategia de obstáculos)
 -[Pensamiento Sistemático y Decisiones de Ingienería](#pensamiento sistemático y decisones de ingeniería)
--[Videos de Rendimiento](#videos de rendimiento)
+-[Videos de Rendimiento](#videos_de_rendimiento)
 
 
 ## ¿Quiénes somos?
