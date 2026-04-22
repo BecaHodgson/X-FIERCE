@@ -2,11 +2,11 @@
 (Descripción 1-2 líneas)
 
 ## Tabla de Contenido
--[¿Quiénes Somos?](#¿quiénes somos)
--[Movilidad y Diseño Mecánico](#movilidad y diseño mecánico)
--[Arquitectura de Potencia y Sensores](#arquitectura de potencia y sensores)
--[Arquitectura de Software y Estrategia de Obstáculos](#arquitectura de software y estrategia de obstáculos)
--[Pensamiento Sistemático y Decisiones de Ingienería](#pensamiento sistemático y decisones de ingeniería)
+-[¿Quiénes Somos?](#¿quiénes_somos)
+-[Movilidad y Diseño Mecánico](#movilidad_y_diseño_mecánico)
+-[Arquitectura de Potencia y Sensores](#arquitectura_de_potencia_y_sensores)
+-[Arquitectura de Software y Estrategia de Obstáculos](#arquitectura_de_software_y_estrategia_de_obstáculos)
+-[Pensamiento Sistemático y Decisiones de Ingienería](#pensamiento_sistemático_y_decisones_de_ingeniería)
 -[Videos de Rendimiento](#videos_de_rendimiento)
 
 
