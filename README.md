@@ -1,24 +1,25 @@
 # X-FIERCE
 (Descripción 1-2 líneas)
 
-## Tabla de Contenido
--[¿Quiénes Somos?](#¿quiénes_somos)
--[Movilidad y Diseño Mecánico](#movilidad_y_diseño_mecánico)
--[Arquitectura de Potencia y Sensores](#arquitectura_de_potencia_y_sensores)
--[Arquitectura de Software y Estrategia de Obstáculos](#arquitectura_de_software_y_estrategia_de_obstáculos)
--[Pensamiento Sistemático y Decisiones de Ingienería](#pensamiento_sistemático_y_decisones_de_ingeniería)
--[Videos de Rendimiento](#videos_de_rendimiento)
+## Table of Contents
+- [Who We Are?](#who_we_are)
+- [Mobility and Mechanical Design](#mobility_and_mechanical_design)
+- [Power Architecture and Sensors](#power_architecture_and_sensors)
+- [Software Architecture and Obstacle Strategy](#software_architecture_and_obstacle_strategy)
+- [Systematic Thinking and Engineering Decisions](#systematic_thinking_and_engineering_decisions)
+- [Performance Videos](#performance_videos)
 
 
-## ¿Quiénes somos?
-Mario, Alessandro, Rebeca y María (qué hace cada uno y algo que los diferencie)
 
-## Movilidad y Diseño Mecánico
+## Who We Are
+Mario, Alessandro, Rebeca, and María (what each one does and something that makes them unique)
 
-## Arquitectura de Potencia y Sensores
+## Mobility and Mechanical Design
 
-## Arquitectura de Software y Estrategia de Obstáculos
+## Power Architecture and Sensors
 
-## Pensamiento Sistemático y Decisiones de Ingienería
+## Software Architecture and Obstacle Strategy
 
-## Videos de Rendimiento
+## Systematic Thinking and Engineering Decisions
+
+## Performance Videos
