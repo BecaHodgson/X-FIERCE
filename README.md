@@ -2,7 +2,7 @@
 (Descripción 1-2 líneas)
 
 ## Table of Contents
-- [Who We Are?](Meet us!/nosotros.jpeg)
+- [Who We Are?](Meet_Us!/nosotros.jpeg)
 - [Mobility and Mechanical Design](#mobility_and_mechanical_design)
 - [Power Architecture and Sensors](#power_architecture_and_sensors)
 - [Software Architecture and Obstacle Strategy](#software_architecture_and_obstacle_strategy)
