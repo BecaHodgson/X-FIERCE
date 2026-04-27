@@ -17,6 +17,35 @@ Alessandro: Hobby: estudiar música y video juegos
 Rebeca:
 Mario:
 
+
+
+
+### Team Photo 2022
+![Us Together](Meet%20us!/Memories/nosotros.jpeg)
+
+Here we are! Meet Mario, Alessandro and Rebeca.  
+
+
+---
+
+### Alessandro (funny moment)
+![Alessandro](Meet%20us!/Memories/aless.jpeg)
+
+So... you're probably wondering what was going on here.  
+We don't know either.
+
+---
+
+
+### Team Now 2026
+And here we are now. Much better, right?
+
+
+
+
+
+
+
 ## Mobility and Mechanical Design
 
 ## Power Architecture and Sensors
