@@ -13,6 +13,9 @@
 
 ## Who We Are
 Mario, Alessandro, Rebeca, and María (what each one does and something that makes them unique)
+Alessandro: Hobby: estudiar música y video juegos
+Rebeca:
+Mario:
 
 ## Mobility and Mechanical Design
 
