@@ -21,7 +21,7 @@ Mario:
 
 
 ### Team Photo 2022
-![Us Together](Meet%20us!/Memories/nosotros.jpeg)
+![Us Together](Meet%20us!/nosotros.jpeg)
 
 Here we are! Meet Mario, Alessandro and Rebeca.  
 
@@ -29,7 +29,7 @@ Here we are! Meet Mario, Alessandro and Rebeca.
 ---
 
 ### Alessandro (funny moment)
-![Alessandro](Meet%20us!/Memories/aless.jpeg)
+![Alessandro](Meet%20us!/aless.jpeg)
 
 So... you're probably wondering what was going on here.  
 We don't know either.
