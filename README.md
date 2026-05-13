@@ -55,3 +55,4 @@ And here we are now. Much better, right?
 ## Systematic Thinking and Engineering Decisions
 
 ## Performance Videos
+1ra Prueba:El carro se enciende, avanza por 5s y luego se detiene,el motor tiene configurado una potencia de 0.2,le pusimos una velocidad de 0.2, porque para ls velocidad de 1.0 nos parecio muy rapido
