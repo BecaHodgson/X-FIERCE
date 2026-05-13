@@ -56,3 +56,4 @@ And here we are now. Much better, right?
 
 ## Performance Videos
 1ra Prueba:El carro se enciende, avanza por 5s y luego se detiene,el motor tiene configurado una potencia de 0.2,le pusimos una velocidad de 0.2, porque para ls velocidad de 1.0 nos parecio muy rapido
+Análisis de Resultados: En un principio sí avanzaba pero luego de un segundo o tercer intento de repetir la operación fallaba algo que analizaremos qué pasó. Mientras avanzaba los engranes se separaron del principal y las ruedas delanteras de dirección: la de la derecha se fue a la derecha y la de la izquierda se movió un poco a la izquierda. Veremos cómo mantener los engranes fijos para que no vuelva a pasar. Al frenar fue de manera gradual y no de golpe. Puede que todo el peso esté en la parte trasera pero por el momento no afecta.
