@@ -1,0 +1,201 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+<variables>
+<variable id="dMEScZC?AG*e)VrsM5dn">velocidad_motor</variable>
+<variable id="E83l17bx|Tx{*pfub:(:">direccion_servo</variable>
+<variable id="A0mc|ZsUC+ia1WL-;.,}">sentido_horario</variable>
+</variables>
+<block type="procedures_defnoreturn" id="WtpyD@tEu+EoY=P9iY,D" deletable="false" x="158" y="235">
+<field name="NAME">runOpMode</field>
+<comment pinned="false" h="141" w="577">This sample contains the bare minimum Blocks for any regular OpMode. The 3 blue
+Comment Blocks show where to place Initialization code (runs once, after touching the
+DS INIT button, and before touching the DS Start arrow), Run code (runs once, after
+touching Start), and Loop code (runs repeatedly while the OpMode is active, namely not
+Stopped).</comment>
+<data>{"commentPositionLeft":-20,"commentPositionTop":-169}</data>
+<statement name="STACK">
+<block type="variables_set" id="~Euwc8eF)p.KJ76N?d5E">
+<field name="VAR" id="dMEScZC?AG*e)VrsM5dn">velocidad_motor</field>
+<value name="VALUE">
+<block type="math_number" id="bdojH?+dtZLS0Zu_o!rK">
+<field name="NUM">1</field>
+</block>
+</value>
+<next>
+<block type="variables_set" id="GD_lj,UdHW3L**[xo_Om">
+<field name="VAR" id="E83l17bx|Tx{*pfub:(:">direccion_servo</field>
+<value name="VALUE">
+<block type="math_number" id="TW,0pf91AXCoBdpL-98W">
+<field name="NUM">0.5</field>
+</block>
+</value>
+<next>
+<block type="dcMotor_setProperty_Number" id="a]FSm=8mLOb9c-:Eg9P(">
+<field name="IDENTIFIER">motor_movimientoAsDcMotor</field>
+<field name="PROP">Power</field>
+<data>{"IDENTIFIER":"motor_movimiento"}</data>
+<value name="VALUE">
+<shadow type="math_number" id="P:C|%C4u0z-s{`Sc-7n;">
+<field name="NUM">0</field>
+</shadow>
+</value>
+<next>
+<block type="servo_setProperty_Number" id="n6J}$PYAL1;c_YlfnM.6">
+<field name="IDENTIFIER">direccon_servoAsServo</field>
+<field name="PROP">Position</field>
+<data>{"IDENTIFIER":"direccon_servo"}</data>
+<value name="VALUE">
+<shadow type="math_number" id="XoM2+4A!=F2C}1FQ0@?]">
+<field name="NUM">0</field>
+</shadow>
+<block type="variables_get" id="X5)]3l|sr^oaN1j/xU7*">
+<field name="VAR" id="E83l17bx|Tx{*pfub:(:">direccion_servo</field>
+</block>
+</value>
+<next>
+<block type="variables_set" id="dO~rSdRKG0@kfcFHv%,;">
+<field name="VAR" id="A0mc|ZsUC+ia1WL-;.,}">sentido_horario</field>
+<value name="VALUE">
+<block type="logic_boolean" id="m-qIC`k!n8FtES5D*E+@">
+<field name="BOOL">TRUE</field>
+</block>
+</value>
+<next>
+<block type="linearOpMode_waitForStart" id=":`$wN_ci`O;o6P0~.(+g">
+<next>
+<block type="controls_if" id="}Q?5mbxSO8Di;i!__6[y">
+<value name="IF0">
+<block type="linearOpMode_opModeIsActive" id=")o%YFX/#9kvv^sgXr4~5"/>
+</value>
+<statement name="DO0">
+<block type="dcMotor_setProperty_Number" id="*I5OC|ur(:[mIK/Qp3~L">
+<field name="IDENTIFIER">motor_movimientoAsDcMotor</field>
+<field name="PROP">Power</field>
+<data>{"IDENTIFIER":"motor_movimiento"}</data>
+<value name="VALUE">
+<shadow type="math_number" id="`mb}(gA6[Qhm@/cZ)WT#">
+<field name="NUM">0</field>
+</shadow>
+<block type="variables_get" id="Z{`K%ooo%s-x@^BR0:G2">
+<field name="VAR" id="dMEScZC?AG*e)VrsM5dn">velocidad_motor</field>
+</block>
+</value>
+<next>
+<block type="linearOpMode_sleep_Number" id="tb~WYUrwuf0o_fN.wP{N">
+<value name="MILLISECONDS">
+<shadow type="math_number" id="/T?AewFQ7RjTRn,xmTHl">
+<field name="NUM">5000</field>
+</shadow>
+</value>
+<next>
+<block type="controls_if" id="_H.cP^nZZ6{6ck1a(yh|">
+<mutation else="1"/>
+<value name="IF0">
+<block type="logic_compare" id="y(Ya7r.$Fs-Hsr~Gn1T8">
+<field name="OP">EQ</field>
+<value name="A">
+<block type="variables_get" id="l/oFmh]yH{m|yhGe7dM)">
+<field name="VAR" id="A0mc|ZsUC+ia1WL-;.,}">sentido_horario</field>
+</block>
+</value>
+<value name="B">
+<block type="logic_boolean" id=")!g8cPEtW4K9.~4y;3,w">
+<field name="BOOL">TRUE</field>
+</block>
+</value>
+</block>
+</value>
+<statement name="DO0">
+<block type="variables_set" id="I}dWMwj9gKq#WUxyvYI6">
+<field name="VAR" id="E83l17bx|Tx{*pfub:(:">direccion_servo</field>
+<value name="VALUE">
+<block type="math_number" id="+7LQltqeu{zlke$W5TyD">
+<field name="NUM">0.8</field>
+</block>
+</value>
+</block>
+</statement>
+<statement name="ELSE">
+<block type="variables_set" id="P|7FDEfAd`Av.u4UgG2K">
+<field name="VAR" id="E83l17bx|Tx{*pfub:(:">direccion_servo</field>
+<value name="VALUE">
+<block type="math_number" id="a`sz8o0|vr_Sr9i,lmEe">
+<field name="NUM">0.2</field>
+</block>
+</value>
+</block>
+</statement>
+<next>
+<block type="servo_setProperty_Number" id="B3_%h!{$}j*,rjH|=?o:">
+<field name="IDENTIFIER">direccon_servoAsServo</field>
+<field name="PROP">Position</field>
+<data>{"IDENTIFIER":"direccon_servo"}</data>
+<value name="VALUE">
+<shadow type="math_number" id="{cP#|L!^b7OnYOMi)[i@">
+<field name="NUM">0</field>
+</shadow>
+<block type="variables_get" id=",{D`JKiNv`KCQ|!mE~cv">
+<field name="VAR" id="E83l17bx|Tx{*pfub:(:">direccion_servo</field>
+</block>
+</value>
+<next>
+<block type="linearOpMode_sleep_Number" id="Zk,4_i5sD_rLq.r]yp~8">
+<value name="MILLISECONDS">
+<shadow type="math_number" id="(XWk.4vElt10~adgmDIV">
+<field name="NUM">1000</field>
+</shadow>
+</value>
+<next>
+<block type="dcMotor_setProperty_Number" id="k]C@xb5*:2)u/zH_5Z?y">
+<field name="IDENTIFIER">motor_movimientoAsDcMotor</field>
+<field name="PROP">Power</field>
+<data>{"IDENTIFIER":"motor_movimiento"}</data>
+<value name="VALUE">
+<shadow type="math_number" id="]Ak/fC)lot?|)0:1ERh6">
+<field name="NUM">0</field>
+</shadow>
+</value>
+<next>
+<block type="servo_setProperty_Number" id="@3YPqpFkVGvomOdDQ5p0">
+<field name="IDENTIFIER">direccon_servoAsServo</field>
+<field name="PROP">Position</field>
+<data>{"IDENTIFIER":"direccon_servo"}</data>
+<value name="VALUE">
+<shadow type="math_number" id="$2T_lWak|,y|PlA;|{?f">
+<field name="NUM">0.5</field>
+</shadow>
+</value>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</statement>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</statement>
+</block>
+</xml>
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<Extra>
+<OpModeMeta flavor="TELEOP" group="" autoTransition="" />
+<Enabled value="true" />
+</Extra>
